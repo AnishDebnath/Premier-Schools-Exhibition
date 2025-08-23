@@ -131,7 +131,7 @@ body,
     background: var(--Linear, linear-gradient(90deg, #000E38 0.22%, #3F186A 52.52%));
 }
 
-/* hero secction incomplete */
+/* hero section incomplete */
 
 .stats {
     background: #fff;
@@ -149,7 +149,7 @@ body,
     align-items: center;
 }
 
-.stat-wing {
+.stat-frame img {
     width: 92.59px;
     height: 165.052px;
 }
@@ -160,6 +160,87 @@ body,
     font-size: 27.958px;
     line-height: 120%;
     background: var(--Primery-Color, linear-gradient(90deg, #010E39 0%, #0344A2 100%));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.participating-schools {
+    background: #fff;
+    padding: 25px 0 30px 0;
+}
+
+.participating-schools h4 {
+    text-align: center;
+    font-family: Archivo;
+    font-size: 32px;
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 36px;
+}
+
+.schools-logos {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-274px * 9 - 36px * 8));
+    }
+}
+
+@keyframes scrollRight {
+    from {
+        transform: translateX(calc(-274px * 9 - 36px * 8));
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.marquee-content {
+    display: flex;
+    gap: 36px;
+    height: 120px;
+    will-change: transform;
+}
+
+.marquee-content:first-child {
+    animation: scrollLeft 40s linear infinite;
+}
+
+.marquee-content:last-child {
+    animation: scrollRight 40s linear infinite;
+}
+
+.marquee-content:hover {
+    animation-play-state: paused;
+}
+
+.school-logo-frame {
+    width: 274px;
+    height: 120px;
+    flex-shrink: 0;
+    border: 1px solid #E8E7E7;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.schools-logos img {
+    height: 100px;
+    width: auto;
 }
