@@ -135,7 +135,7 @@ body,
 
 .stats {
     background: #fff;
-    padding: 97px 0;
+    margin-top: 80px;
 }
 
 .stats-flex {
@@ -167,7 +167,7 @@ body,
 
 .participating-schools {
     background: #fff;
-    padding: 25px 0 30px 0;
+    margin-top: 80px;
 }
 
 .participating-schools h4 {
@@ -243,4 +243,70 @@ body,
 .schools-logos img {
     height: 100px;
     width: auto;
+}
+
+.school-selection {
+    background: #e7ecf3;
+    margin-top: 80px;
+}
+
+.school-selection h2 {
+    text-align: center;
+    font-family: "FONTSPRING DEMO - Museo Sans 700";
+    font-size: 48px;
+    line-height: 150%;
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.selection-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.card {
+    width: 416px;
+    height: 401px;
+    border-radius: 12px;
+    transition: transform 0.15s;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.04);
+}
+
+.card-img {
+    width: 416px;
+    height: 401px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    width: 361.607px;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.card-content h5 {
+    color: #FFF;
+    font-family: "FONTSPRING DEMO - Museo Sans 700";
+    font-size: 20px;
+}
+
+.card-content p {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 150%;
 }
