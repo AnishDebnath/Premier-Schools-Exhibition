@@ -310,3 +310,26 @@ body,
     font-size: 18px;
     line-height: 150%;
 }
+
+.appointment-cta {
+    width: 100vw;
+    height: 725px;
+    background: linear-gradient(270deg, #EAD7FF 45.09%, #DEC1FF 100%);
+    margin-top: 80px;
+}
+
+.cta-image {
+    width: 1174px;
+    height: 725px;
+    background: url(/img/cta-banner.jpg) lightgray -0.611px -58px / 100.104% 108% no-repeat;
+    display: flex;
+    justify-self: flex-end;
+}
+
+.cta-frame {
+    width: 1363px;
+    height: 725px;
+    background: linear-gradient(270deg, #EAD7FF 45.09%, #DEC1FF 100%);
+    position: absolute;
+    left: 0;
+}
