@@ -35,7 +35,6 @@ body,
 }
 
 .header-button {
-    width: 205px;
     height: 60px;
     border-radius: 4px;
     border: 2px solid #000E38;
@@ -324,15 +323,59 @@ body,
     height: 725px;
     background: url(/img/cta-banner.jpg) lightgray -0.611px -58px / 100.104% 108% no-repeat;
     display: flex;
-    justify-self: flex-end;
+    justify-self: end;
 }
 
 .cta-frame {
-    width: 1363px;
+    width: 1370px;
     height: 725px;
-    background: linear-gradient(270deg, #EAD7FF 45.09%, #DEC1FF 100%);
+    background: linear-gradient(90deg, #DEC1FF 55%, #0000);
     position: absolute;
     left: 0;
+
+}
+
+.cta-container {
+    width: 90%;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.appointment-flex {
+    display: flex;
+    width: 641px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.cta-text {
+    width: 100%;
+}
+
+.cta-text span {
+    font-family: "FONTSPRING DEMO - Museo Sans 500";
+    font-size: 32px;
+    font-style: italic;
+    line-height: 150%;
+    background: var(--Purple-Icon, linear-gradient(270deg, #755797 0%, #9B4DF0 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta-text h3 {
+    font-family: "FONTSPRING DEMO - Museo Sans 500";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 130%;
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* unfinished */
@@ -523,7 +566,6 @@ body,
     color: var(--White, #FFF);
     font-family: "FONTSPRING DEMO - Museo Sans 700";
     font-size: 20px;
-    /* font-weight: 600; */
     line-height: 150%;
 }
 
