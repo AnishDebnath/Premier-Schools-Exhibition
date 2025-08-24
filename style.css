@@ -466,3 +466,74 @@ body,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.footer {
+    height: 274px;
+    width: 100vw;
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    margin-top: 80px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+.footer-logo {
+    width: 141.714px;
+    height: 124px;
+}
+
+.office-details {
+    display: flex;
+    gap: 14px;
+}
+
+.location-pin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 52px;
+    border-radius: 10px;
+    border: 2px solid #755797;
+    background: linear-gradient(59deg, #DDBFFF 0.39%, #EDDDFF 93.5%);
+}
+
+.location-pin img {
+    height: 30px;
+    width: 30px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.location strong {
+    color: var(--White, #FFF);
+    font-family: "FONTSPRING DEMO - Museo Sans 700";
+    font-size: 20px;
+}
+
+.location span {
+    color: var(--White, #FFF);
+    font-family: "FONTSPRING DEMO - Museo Sans 700";
+    font-size: 20px;
+    /* font-weight: 600; */
+    line-height: 150%;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.socials {
+    display: flex;
+    gap: 14px;
+}
