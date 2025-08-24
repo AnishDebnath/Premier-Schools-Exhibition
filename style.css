@@ -537,3 +537,20 @@ body,
     display: flex;
     gap: 14px;
 }
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background: var(--White, #FFF);
+}
+
+.footer-bottom p {
+    text-align: center;
+    font-family: "FONTSPRING DEMO - Museo Sans 500";
+    font-size: 16px;
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
