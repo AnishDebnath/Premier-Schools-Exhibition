@@ -123,14 +123,200 @@ body,
     position: fixed;
 }
 
-/* hero section incomplete */
 .hero {
     height: 720px;
     width: 100vw;
     background: var(--Linear, linear-gradient(90deg, #000E38 0.22%, #3F186A 52.52%));
 }
 
-/* hero section incomplete */
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    height: 720px;
+    overflow: hidden;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.opening-title {
+    font-family: "FONTSPRING DEMO - Museo Sans 700";
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+    background: linear-gradient(180deg, #FFCC81 0%, #E9C79F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.opening-title strong {
+    font-size: 64px;
+}
+
+.opening-title p {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFCC81 0%, #E9C79F 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.opening {
+    width: 520px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 213.333px;
+    background: linear-gradient(180deg, #FFCC81 -43.71%, #E9C79F 118.98%);
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.opening-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opening-details strong {
+    font-family: "Open Sans";
+    font-size: 26.667px;
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.opening-details span {
+    background: var(--Gradient-Purple, linear-gradient(0deg, #000E38 0%, #3F186A 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Open Sans";
+    font-size: 18.667px;
+    line-height: 170%;
+}
+
+.stroke {
+    width: 1.333px;
+    height: 57.333px;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #000E38 0%, #3F186A 100%);
+}
+
+.hero-images {
+    display: flex;
+    gap: 35px;
+}
+
+.image-col {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.image-col img {
+    width: 100%;
+    height: 452px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+.enquiry-form {
+    margin-top: 110px;
+    width: 414px;
+    height: 435px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 0%, rgba(6, 21, 50, 0.20) 100%);
+    backdrop-filter: blur(12.5px);
+}
+
+.enquiry-form h3 {
+    color: var(--White, #FFF);
+    font-family: Archivo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.input-frame {
+    width: 100%;
+    /* height: 50px; */
+    border-radius: 8px;
+    padding: 10px 12px;
+    background: #503076;
+    margin-bottom: 14px;
+}
+
+.input-frame input {
+    width: 100%;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-frame input::placeholder {
+    color: #FFF;
+}
+
+.input-frame input[type=number]::-webkit-inner-spin-button,
+.input-frame input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.enquiry-button {
+    height: 60px;
+    border-radius: 4px;
+    display: inline-flex;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    width: 210px;
+    margin-top: 22px;
+}
+
+.enquiry-arrow {
+    width: 60px;
+    height: 100%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquiry-button-text {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    align-self: center;
+    padding: 0px 46px;
+}
 
 .stats {
     background: #fff;
@@ -310,7 +496,6 @@ body,
     line-height: 150%;
 }
 
-/* unfinished  */
 .appointment-cta {
     width: 100vw;
     height: 725px;
@@ -377,8 +562,6 @@ body,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-/* unfinished */
 
 .why-visit {
     width: 100vw;
