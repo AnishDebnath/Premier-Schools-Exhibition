@@ -36,10 +36,50 @@ body,
 
 .header-button {
     height: 60px;
+    width: 205px;
     border-radius: 4px;
     border: 2px solid #000E38;
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 29px;
+    transition: all 0.6s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.header-button-text {
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: all 0.6s ease;
+}
+
+.button-arrow img {
+    transition: transform 0.6s ease;
+}
+
+/* Active state (after click) */
+.header-button.active {
+    background: linear-gradient(270deg, #000E38 0%, #3F186A 100%);
+    border: 2px solid #000E38;
+    width: 205px;
+    transform: scale(1.02);
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header-button.active .header-button-text {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.header-button.active .button-arrow img {
+    transform: rotate(180deg);
+}
+
+.header-button.active .button-arrow {
+    background: transparent;
 }
 
 .button-arrow {
@@ -58,13 +98,14 @@ body,
 }
 
 .header-button-text {
+    width: 145px;
     color: #030E3B;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     align-self: center;
-    padding: 13px;
+    /* padding: 15px; */
 }
 
 .fixed-header {
@@ -320,10 +361,49 @@ body,
     height: 60px;
     border-radius: 4px;
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
     border: 2px solid #FFFFFF;
     width: 210px;
     margin-top: 22px;
+    transition: all 0.6s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.enquiry-button-text {
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: all 0.6s ease;
+}
+
+.enquiry-arrow img {
+    transition: transform 0.6s ease;
+}
+
+/* Active state (after click) */
+.enquiry-button.active {
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    width: 230px;
+    transform: scale(1.02);
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.enquiry-button.active .enquiry-button-text {
+    color: #503076;
+    text-align: left;
+}
+
+.enquiry-button.active .enquiry-arrow img {
+    transform: translateX(-15px) rotate(180deg);
+}
+
+.enquiry-button.active .enquiry-arrow {
+    background: transparent;
 }
 
 .enquiry-arrow {
@@ -333,6 +413,7 @@ body,
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: rotate(180deg);
 }
 
 .enquiry-button-text {

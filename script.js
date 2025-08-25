@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextButton = document.querySelector('.nav-button.next');
     const cards = document.querySelectorAll('.visit-card');
 
+    const enquiryBtn = document.querySelector(".enquiry-button");
+    const headerBtn = document.querySelector(".header-button");
+
     let isDragging = false;
     let startPos = 0;
     let scrollLeft = 0;
@@ -69,4 +72,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Update on window resize
     window.addEventListener('resize', updateButtons);
+
+    enquiryBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        enquiryBtn.classList.toggle("active");
+    });
+
+    headerBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        headerBtn.classList.toggle("active");
+    });
 });
