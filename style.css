@@ -887,3 +887,912 @@ body,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* Large Screens (1200px and below) */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+
+    .hero-content {
+        /* gap: 20px; */
+        justify-content: space-around;
+    }
+
+    .hero-images {
+        /* gap: 20px; */
+        display: none;
+    }
+
+    .image-col {
+        width: 150px;
+        gap: 20px;
+    }
+
+    .opening-title {
+        font-size: 42px;
+    }
+
+    .opening-title strong {
+        font-size: 56px;
+    }
+
+    .opening {
+        width: 450px;
+        height: 100px;
+    }
+
+    .opening-details strong {
+        font-size: 22px;
+    }
+
+    .opening-details span {
+        font-size: 16px;
+    }
+
+    .enquiry-form {
+        width: 380px;
+        margin-top: 90px;
+    }
+
+    .selection-cards {
+        gap: 12px;
+    }
+
+    .card {
+        width: 380px;
+        height: 360px;
+    }
+
+    .card-img {
+        width: 380px;
+        height: 360px;
+    }
+
+    .visit-card {
+        min-width: 380px;
+    }
+
+    .cta-text h3 {
+        font-size: 54px;
+    }
+
+    .footer-flex {
+        gap: 20px;
+    }
+}
+
+/* Tablets Landscape (992px and below) */
+@media screen and (max-width: 992px) {
+
+    /* Headers */
+    .sticky-header {
+        height: 80px;
+    }
+
+    .sticky-navbar {
+        height: 80px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 117px;
+        margin-top: 35px;
+    }
+
+    .header-button {
+        width: 180px;
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    .fixed-header {
+        height: 80px;
+    }
+
+    .fixed-navbar {
+        height: 80px;
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: 68px;
+        margin-left: 20px;
+    }
+
+    .nav-header-button {
+        width: 180px;
+        height: 50px;
+    }
+
+    .nav-header-button-text {
+        font-size: 16px;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .left {
+        width: 100%;
+        align-items: center;
+    }
+
+    .left-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .opening-title {
+        font-size: 36px;
+    }
+
+    .opening-title strong {
+        font-size: 48px;
+    }
+
+    .opening {
+        width: 400px;
+    }
+
+    .hero-images {
+        width: 100%;
+        justify-content: center;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .image-col {
+        width: 120px;
+    }
+
+    .image-col img {
+        height: 300px;
+        border-radius: 60px;
+    }
+
+    .right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .enquiry-form {
+        margin-top: 0;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    /* Stats Section */
+    .stats-flex {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .stat-frame {
+        width: 45%;
+        justify-content: center;
+    }
+
+    .stat-frame img {
+        width: 70px;
+        height: 125px;
+    }
+
+    .stat {
+        font-size: 22px;
+    }
+
+    /* School Selection */
+    .school-selection h2 {
+        font-size: 36px;
+    }
+
+    .selection-cards {
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%;
+        height: 320px;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* CTA Section */
+    .appointment-cta {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .cta-image {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cta-frame {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .appointment-flex {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .cta-text h3 {
+        font-size: 42px;
+    }
+
+    /* Why Visit */
+    .why-visit h2 {
+        font-size: 36px;
+    }
+
+    .visit-card {
+        min-width: 350px;
+        height: 340px;
+    }
+
+    /* Footer */
+    .footer {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .footer-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 40px;
+    }
+
+    .office-details {
+        width: 45%;
+    }
+
+    .footer-logo {
+        width: 100px;
+        height: 87px;
+    }
+}
+
+/* Tablets Portrait (768px and below) */
+@media screen and (max-width: 768px) {
+
+    /* Headers */
+    .header-button {
+        width: 150px;
+        height: 45px;
+    }
+
+    .header-button-text {
+        font-size: 12px;
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .button-arrow {
+        width: 45px;
+    }
+
+    .nav-header-button {
+        width: 150px;
+        height: 45px;
+    }
+
+    .nav-header-button-text {
+        font-size: 14px;
+        padding-right: 8px;
+    }
+
+    /* Hero Section */
+    .opening-title {
+        font-size: 32px;
+    }
+
+    .opening-title strong {
+        font-size: 42px;
+    }
+
+    .opening-title p {
+        font-size: 24px;
+    }
+
+    .opening {
+        width: 350px;
+        height: 90px;
+        gap: 15px;
+    }
+
+    .opening-details strong {
+        font-size: 18px;
+    }
+
+    .opening-details span {
+        font-size: 14px;
+    }
+
+    .hero-images {
+        display: none;
+        /* Hide on tablets portrait */
+    }
+
+    /* School Selection */
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* School Logos */
+    .school-logo-frame {
+        width: 220px;
+        height: 100px;
+    }
+
+    .schools-logos img {
+        height: 80px;
+    }
+
+    /* Visit Cards */
+    .visit-card {
+        min-width: 300px;
+        height: 320px;
+        padding: 20px;
+    }
+
+    .visit-card h4 {
+        font-size: 20px;
+    }
+
+    .visit-card p {
+        font-size: 16px;
+    }
+
+    .visit-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* CTA */
+    .cta-text h3 {
+        font-size: 36px;
+    }
+
+    .cta-text span {
+        font-size: 24px;
+    }
+
+    /* Footer */
+    .office-details {
+        width: 100%;
+    }
+
+    .social-media {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+/* Mobile Devices (576px and below) */
+@media screen and (max-width: 576px) {
+
+    /* Container */
+    .container {
+        width: 92%;
+    }
+
+    /* Headers */
+    .logo {
+        width: 120px;
+        height: 94px;
+        margin-top: 28px;
+    }
+
+    .header-button {
+        width: 120px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .header-button-text {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    .button-arrow {
+        width: 40px;
+    }
+
+    .arrow {
+        width: 14px;
+        height: 14px;
+    }
+
+    .nav-logo {
+        width: 60px;
+        height: 51px;
+        margin-left: 10px;
+    }
+
+    .nav-header-button {
+        width: 120px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .nav-header-button-text {
+        font-size: 12px;
+    }
+
+    .nav-arrow {
+        width: 20px;
+        height: 22px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 30px 0;
+    }
+
+    .opening-title {
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .opening-title strong {
+        font-size: 36px;
+    }
+
+    .opening-title p {
+        font-size: 20px;
+    }
+
+    .opening {
+        width: 100%;
+        max-width: 320px;
+        height: 80px;
+        border-radius: 100px;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .opening-details {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .opening-details strong {
+        font-size: 16px;
+    }
+
+    .opening-details span {
+        font-size: 12px;
+    }
+
+    .stroke {
+        width: 40px;
+        height: 1px;
+    }
+
+    /* Enquiry Form */
+    .enquiry-form {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .enquiry-form h3 {
+        font-size: 24px;
+    }
+
+    .input-frame {
+        padding: 8px 10px;
+    }
+
+    .input-frame input {
+        font-size: 16px;
+    }
+
+    .enquiry-button {
+        width: 180px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .enquiry-button-text {
+        font-size: 12px;
+        padding: 0 30px;
+    }
+
+    /* Stats Section */
+    .stats {
+        margin-top: 50px;
+    }
+
+    .stat-frame {
+        width: 100%;
+    }
+
+    .stat-frame img {
+        width: 60px;
+        height: 107px;
+    }
+
+    .stat {
+        font-size: 20px;
+    }
+
+    /* Participating Schools */
+    .participating-schools {
+        margin-top: 50px;
+    }
+
+    .participating-schools h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .school-logo-frame {
+        width: 180px;
+        height: 80px;
+    }
+
+    .schools-logos img {
+        height: 60px;
+    }
+
+    /* School Selection */
+    .school-selection {
+        margin-top: 50px;
+    }
+
+    .school-selection h2 {
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .card {
+        height: 280px;
+    }
+
+    .card-content {
+        padding: 0px 10px;
+    }
+
+    .card-content h5 {
+        font-size: 18px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    /* CTA Section */
+    .appointment-cta {
+        margin-top: 50px;
+        padding: 40px 0;
+    }
+
+    .appointment-flex {
+        gap: 30px;
+    }
+
+    .cta-text h3 {
+        font-size: 28px;
+        line-height: 120%;
+    }
+
+    .cta-text span {
+        font-size: 20px;
+    }
+
+    /* Why Visit */
+    .why-visit {
+        padding-top: 50px;
+    }
+
+    .why-visit h2 {
+        font-size: 28px;
+        line-height: 140%;
+        margin-bottom: 30px;
+    }
+
+    .visit-card {
+        min-width: 280px;
+        height: auto;
+        gap: 20px;
+    }
+
+    /* Cards Control */
+    .cards-control {
+        height: 120px;
+    }
+
+    .slider-controls {
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    .nav-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 50px;
+        padding: 30px 0;
+    }
+
+    .footer-flex {
+        padding-top: 0;
+    }
+
+    .location strong,
+    .location span {
+        font-size: 16px;
+    }
+
+    .location-pin {
+        width: 42px;
+        height: 42px;
+    }
+
+    .location-pin img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Footer Bottom */
+    .footer-bottom p {
+        font-size: 14px;
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+
+/* Small Mobile (375px and below) */
+@media screen and (max-width: 375px) {
+
+    /* Headers */
+    .logo {
+        width: 100px;
+        height: 78px;
+        margin-top: 23px;
+    }
+
+    .header-button {
+        width: 100px;
+        height: 36px;
+    }
+
+    .header-button-text {
+        font-size: 9px;
+    }
+
+    .button-arrow {
+        width: 36px;
+    }
+
+    .nav-logo {
+        width: 50px;
+        height: 43px;
+    }
+
+    .nav-header-button {
+        width: 100px;
+        height: 36px;
+    }
+
+    .nav-header-button-text {
+        font-size: 10px;
+    }
+
+    /* Hero Section */
+    .opening-title {
+        font-size: 24px;
+    }
+
+    .opening-title strong {
+        font-size: 32px;
+    }
+
+    .opening-title p {
+        font-size: 18px;
+    }
+
+    .opening {
+        max-width: 280px;
+    }
+
+    .opening-details strong {
+        font-size: 14px;
+    }
+
+    .opening-details span {
+        font-size: 11px;
+    }
+
+    /* Enquiry Form */
+    .enquiry-form h3 {
+        font-size: 20px;
+    }
+
+    .input-frame input {
+        font-size: 14px;
+    }
+
+    /* Stats */
+    .stat-frame img {
+        width: 50px;
+        height: 89px;
+    }
+
+    .stat {
+        font-size: 18px;
+    }
+
+    /* School Selection */
+    .school-selection h2 {
+        font-size: 24px;
+    }
+
+    .card {
+        height: 250px;
+    }
+
+    .card-content h5 {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 13px;
+        line-height: 140%;
+    }
+
+    /* CTA */
+    .cta-text h3 {
+        font-size: 24px;
+    }
+
+    .cta-text span {
+        font-size: 18px;
+    }
+
+    /* Why Visit */
+    .why-visit h2 {
+        font-size: 24px;
+    }
+
+    .visit-card {
+        min-width: 250px;
+    }
+
+    .visit-card h4 {
+        font-size: 18px;
+    }
+
+    .visit-card p {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .footer-logo {
+        width: 80px;
+        height: 70px;
+    }
+
+    .location strong,
+    .location span {
+        font-size: 14px;
+    }
+
+    /* Footer Bottom */
+    .footer-bottom p {
+        font-size: 12px;
+    }
+}
+
+/* Additional Mobile Optimizations */
+@media screen and (max-width: 576px) {
+
+    /* Hide decorative elements on mobile */
+    .hero-images {
+        display: none;
+    }
+
+    /* Make forms more touch-friendly */
+    input,
+    button {
+        min-height: 44px;
+        /* iOS recommendation for touch targets */
+    }
+
+    /* Improve marquee performance on mobile */
+    .marquee-content {
+        animation-duration: 30s;
+    }
+
+    /* Stack flex items vertically on mobile */
+    .opening {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .stroke {
+        width: 60%;
+        height: 1px;
+        margin: 5px auto;
+    }
+}
+
+/* Landscape orientation adjustments for mobile */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .sticky-header {
+        position: relative;
+    }
+
+    .fixed-header {
+        position: relative;
+    }
+
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding: 20px 0;
+    }
+}
+
+/* High resolution displays */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi) {
+
+    /* Ensure images look crisp on retina displays */
+    .logo,
+    .nav-logo,
+    .school-logo-frame img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Print styles */
+@media print {
+
+    .sticky-header,
+    .fixed-header,
+    .hero-images,
+    .marquee-content,
+    .nav-button,
+    .slider-controls {
+        display: none !important;
+    }
+
+    .hero,
+    .stats,
+    .participating-schools,
+    .school-selection,
+    .why-visit,
+    .footer {
+        page-break-inside: avoid;
+    }
+}
