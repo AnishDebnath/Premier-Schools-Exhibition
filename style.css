@@ -888,6 +888,17 @@ body,
     -webkit-text-fill-color: transparent;
 }
 
+/* Large Screens (1440px and below) */
+@media screen and (max-width: 1440px) {
+    .hero-images {
+        display: none;
+    }
+
+    .hero-content {
+        justify-content: space-around;
+    }
+}
+
 /* Large Screens (1200px and below) */
 @media screen and (max-width: 1200px) {
     .container {
@@ -1636,6 +1647,10 @@ body,
 
     .input-frame input {
         font-size: 14px;
+    }
+
+    .enquiry-arrow {
+        width: 68px;
     }
 
     /* Stats */
