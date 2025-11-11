@@ -1,6 +1,6 @@
 ﻿# Premier Schools Exhibition
 
-A modern and responsive landing page for a premier schools exhibition event.
+A modern and responsive landing page for a premier schools exhibition event in Gurugram.
 
 ## Features
 
